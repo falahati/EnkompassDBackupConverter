@@ -5,10 +5,9 @@ This is a simple command line tool to extract the database script from an enkomp
 
 How to use
 =============
-1. Extract your backup file using an extraction program
-2. Navigate to "cPanel_data\cpBackup" directory
-3. Copy "CommandLine.dll" and "EnkompassDBackupConverter.exe" files to this directory; 
-right next to "MYSQL_BACKUP_FILES" subdirectory.
+1. Extract your backup file using an extraction program.
+2. Navigate to "cPanel_data\cpBackup\MYSQL_BACKUP_FILES" directory.
+3. Copy "CommandLine.dll" and "EnkompassDBackupConverter.exe" files to this directory.
 4. Execute the "EnkompassDBackupConverter.exe" file and wait for it to reconstruct
 the database backup script.
 
